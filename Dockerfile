@@ -20,4 +20,3 @@ VOLUME ["/data"]
 WORKDIR /data/www
 
 ENTRYPOINT ["php", "artisan"]
-CMD ["--help"]
